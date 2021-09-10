@@ -1,0 +1,18 @@
+Hello,
+
+I'm so proud to tell you that I have finished my work on our private cloud web application for the basic infrastructure configurations and virtual machine buildout and testing.
+
+As agreed by the System Administration group, I added an NTP server (pool.ntp.com) and a Name server (8.8.8.8) to the HCI Cloud Platform. I added a storage container named Images and uploaded Windows and Linux (CentOS) virtual disk images to the new container.
+I created an app, a web and a database production virtual machines. Each virtual machine will be configured with 1 vCPU and 4 GB of RAM. You have also asked me to add 1 vCPU and 2GB memory to the database server for additional tests for VM workload expansion (cloning). These virtual machines are on the production network as designated in the email provided by the Network Operations group.
+For virtual machine clones and these configurations, I created an app, a web and a database development virtual machines. Each virtual machine will be configured with 1 vCPU and 4 GB of RAM. You have also asked me to add 1 vCPU and 2GB memory to the database server for additional tests for VM workload expansion (cloning). And these virtual machines are on the development network as designated in the email provided by the Network Operations group.
+
+According to the information communicated by the Network Operations group, I configured a managed virtual network using IPAM/DHCP in the HCI Cloud Platform. The managed network is identified as the production network by name (production-network) and has the correct Vlan (0), Subnet IP (172.31.0.0), Prefix Length (24), IP Pool starting and ending addresses (172.31.0.210 to 172.31.0.230).
+I also configured an unmanaged virtual network in the HCI Cloud Platform. The unmanaged network is identified as the development network by name (development-network) and has the correct Vlan (101).
+
+Finally, and according to you, I created data protection configurations with the production environment to automate virtual machine snapshots. I remove a key VM and perform a full restoration. The restored production virtual machine will be identified by the default restore naming convention as shown during the restore process in Prism.
+
+I hope this basic infrastructure configurations and virtual machine buildout and testing is appropriate for you.
+
+Respectfully,
+
+Hybrid Cloud Engineer
