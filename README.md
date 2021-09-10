@@ -47,7 +47,7 @@ After the success making the software developers productive on the private cloud
 ### Tasks:
 
 1. Design a blueprint to deploy and configure a three tier web application with a load balancer hosted on the private cloud, two web server tiers (each hosted on a private and a public cloud), and database VM hosted on the public cloud.
-2. Insure each VM in configured with the proper resources and tasks
+2. Insure each VM in configured with the proper resources and tasks.
 3. Test the deployment works with a read and write to the database.
 4. Test web tier scaling: scale-in and scale-out actions changing the population by a count of 1 on private cloud separately from scaling on the public cloud.
 5. Allow self-service, ad-hoc backup of the database.
